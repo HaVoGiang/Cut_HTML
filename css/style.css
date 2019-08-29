@@ -3,6 +3,7 @@ body nav .form-control{
 }
 .has-search .form-control {
     padding-left: 2.375rem;
+    width: 300px;
 }
 
 .has-search .form-control-feedback {
@@ -30,6 +31,9 @@ body nav .form-control{
 .breadcrumb {
     background-color: rgba(0, 0, 0, 0);
 }
+.list_info,.page_bottom{
+    background-color: #F5F5F5;
+}
 .list_info h4{
     color: #000;
 }
@@ -38,6 +42,9 @@ body nav .form-control{
 }
 .list_info a{
     text-decoration: none;
+}
+.list_info .card,.list_info img{
+    border-radius: 4%;
 }
 .content .name a{
     color: #000;
